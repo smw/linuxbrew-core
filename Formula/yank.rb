@@ -16,7 +16,7 @@ class Yank < Formula
   end
 
   def install
-    system "make", "install", "PREFIX=#{prefix}", "YANKCMD=pbcopy"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
